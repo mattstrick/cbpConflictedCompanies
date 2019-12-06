@@ -1,6 +1,6 @@
 {
   "name": "customs-and-border-patrol-conflicted-companies",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "Companies that work with Customs and Border Patrol on Trump's zero-tolerance border policy.",
   "main": "index.js",
   "scripts": {
