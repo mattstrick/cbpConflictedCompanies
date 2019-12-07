@@ -77,29 +77,68 @@ var CustomsAndBorderPatrolConflictedCompanies = [
         "source": "https://www.usaspending.gov/#/award/66259391",
         "sourceDescription": "Government spending contract"
     },
-    
-	
-// 12
-// 11	Hewlitt Packard	Hewlett Packard Enterprise has an active contract with ICE, according to NBC News.	CEO: antonio.neri@hpe.com // PR: neta.tully@hp.com			
-// 13
-// 12	Microsoft	Microsoft has an active contract with ICE, according to NBC News.	CEO: satyan@microsoft.com // Global Media Relations: rrt@we-worldwide.com / 425-638-7777			
-// 14
-// 13	Motorola Solutions	Motorola has an active contract with ICE, according to NBC News.	CEO: greg.brown@motorolasolutions.com // Global Media Relations, Brand: Kathryn Hanley, kathan@motorola.com			
-// 15
-// 14	MVM	Federal Contracting databases show MVM was awarded a contract worth up to $8 million over the next five years. The contract, kicked off in September 2017, calls for the company to provide assistance in emergency shelter operations for unaccompanied children and extends through September 2022. It's also been reported that MVM has multimillion-dollar contracts providing for “multiple forms of transportation, food, shelter, clothing, and other expenses related to managing these ICE and ORR programs.”	CEO Kevin Marquez: marquezk@mvminc.com			
-// 16
-// Ogilvy	A June 2019 report from Sludge.com revealed for the first time that Ogilvy has a lucrative multi-million dollar contract in place with Customs and Border Protection, which CBP later confirmed to Adweek.	cindy.luong@ogilvy.com // + 1 212 237 6158
-
-// Adweek story on Ogilvy's contract w/ CBP		
-// 17
-// 15	Palantir	Palantir, founded by Trump surrogate Peter Thiel who is also the company's largest shareholder, has an active contract with ICE, according to NBC News. Palantir "took in more than $4.9 million from ICE on May 30, part of a $39 million contract that began in 2015."	Chairman: pthiel@palantir.com, CEO: akarp@palantir.com // PR: media@palantir.com			
-// 18
-// 16	Southwest Key	The New York Times reports "Southest Key has won at least $955 million in federal contracts since 2015 to run shelters and provide other services to immigrant children in federal custody." The $240 million-a-year Southwest Key organization has big contracts with the government to house immigrant minors in its two dozen low-security shelters in Texas, Arizona, and California, a population that in recent weeks has exploded with infants and children removed from their parents." CNN reported in June 2018 that Southest Key CEO Juan Sanchez made $1.47 million a year, a salary that "reflects the organization's growth." (For perspective, the head of the American Red Cross is paid $600k per year.) In March 2019, the organization announced that Sanchez was stepping down but its immigration-related contracts remain in place. In June 2019 it was reported a Southwest Key employee was arrested for soliciting a migrant girl in a shelter.	Leadership Team: Interim CEO Joella Brooks: jbrooks@swkey.org. Rest of team: mchung@swkey.org, vdelgadosavage@swkey.org, arodriguez@swkey.org, rluna@swkey.org, jnelson@swkey.org	CNN report on CEO's salary	Vice News report on arrest of former Southwest Key employee	NYT story on Southwest Key
-// 19
-// 17	Thompson Reuters	Thompson Reuters has an active contract with ICE, according to NBC News.	Corporate Affairs: David Crundwell, david.crundwell@thomsonreuters.com Tel: +44 (0)20 7542 8763 / David Girardin, david.girardin@thomsonreuters.com / 646.223.4870			
-// 20
-// 18	Wayfair	In June 2019, 500+ Wayfair employees organized a walk-out to protest the retailer’s sale of $200,000 worth of beds and other furniture to a Texas detention center for migrant children.	PR@wayfair.com	Washington Post story	
-    
+    {
+        "id": "hewlittPackard",
+        "brand": "Hewlitt Packard",
+        "description": `Hewlett Packard Enterprise has an active contract with ICE.`,
+        "source": "https://www.nbcnews.com/tech/tech-news/tech-companies-quietly-work-ice-border-crisis-continues-n885176",
+        "sourceDescription": "Tech companies quietly work with ICE as border crisis persists"
+    },
+    {
+        "id": "microsoft",
+        "brand": "Microsoft",
+        "description": `Microsoft has an active contract with ICE.`,
+        "source": "https://www.theverge.com/2018/6/21/17488328/microsoft-ice-employees-signatures-protest",
+        "sourceDescription": "The employee letter denouncing Microsoft’s ICE contract now has over 300 signatures"
+    },
+    {
+        "id": "motorolaSolutions",
+        "brand": "Motorola Solutions",
+        "description": `Motorola has an active contract with ICE.`,
+        "source": "https://www.vice.com/en_us/article/vb5ab4/motorola-solutions-works-with-ice-cbp",
+        "sourceDescription": "Motorola Solutions Has Made $25 Million This Year Working with ICE and CBP"
+    },
+    {
+        "id": "mvm",
+        "brand": "MVM",
+        "description": `Federal Contracting databases show MVM was awarded a contract worth up to $8 million over the next five years. The contract, kicked off in September 2017, calls for the company to provide assistance in emergency shelter operations for unaccompanied children and extends through September 2022. It's also been reported that MVM has multimillion-dollar contracts providing for “multiple forms of transportation, food, shelter, clothing, and other expenses related to managing these ICE and ORR programs.”`,
+        "source": "https://www.nytimes.com/2018/06/21/us/migrant-shelters-border-crossing.html",
+        "sourceDescription": "The Billion-Dollar Business of Operating Shelters for Migrant Children"
+    },
+    {
+        "id": "ogilvy",
+        "brand": "Ogilvy",
+        "description": `A June 2019 report from Sludge.com revealed for the first time that Ogilvy has a lucrative multi-million dollar contract in place with Customs and Border Protection, which CBP later confirmed to Adweek.`,
+        "source": "https://www.adweek.com/agencies/ogilvy-leadership-confronts-employee-upheaval-over-customs-and-border-protection-contract/",
+        "sourceDescription": "Ogilvy Leadership Confronts Staff Concerns Over Customs and Border Protection Contract"
+    },
+    {
+        "id": "palantir",
+        "brand": "Palantir",
+        "description": `Palantir, founded by Trump surrogate Peter Thiel who is also the company's largest shareholder, has an active contract with ICE, according to NBC News. Palantir "took in more than $4.9 million from ICE on May 30, part of a $39 million contract that began in 2015."`,
+        "source": "https://www.vice.com/en_us/article/ywadv7/ice-just-renewed-its-contract-with-palantir",
+        "sourceDescription": "ICE Just Renewed Its Contract With Palantir"
+    },
+    {
+        "id": "southwestKey",
+        "brand": "Southwest Key",
+        "description": `The New York Times reports "Southest Key has won at least $955 million in federal contracts since 2015 to run shelters and provide other services to immigrant children in federal custody." The $240 million-a-year Southwest Key organization has big contracts with the government to house immigrant minors in its two dozen low-security shelters in Texas, Arizona, and California, a population that in recent weeks has exploded with infants and children removed from their parents." CNN reported in June 2018 that Southest Key CEO Juan Sanchez made $1.47 million a year, a salary that "reflects the organization's growth." (For perspective, the head of the American Red Cross is paid $600k per year.) In March 2019, the organization announced that Sanchez was stepping down but its immigration-related contracts remain in place. In June 2019 it was reported a Southwest Key employee was arrested for soliciting a migrant girl in a shelter.`,
+        "source": "https://www.nytimes.com/2018/06/21/us/migrant-shelters-border-crossing.html",
+        "sourceDescription": "The Billion-Dollar Business of Operating Shelters for Migrant Children"
+    },
+    {
+        "id": "thompsonReuters",
+        "brand": "Thompson Reuters",
+        "description": `Thompson Reuters has an active contract with ICE, according to NBC News.`,
+        "status": "uncertain",
+    },
+    {
+        "id": "wayfair",
+        "brand": "Wayfair",
+        "description": `In June 2019, 500+ Wayfair employees organized a walk-out to protest the retailer’s sale of $200,000 worth of beds and other furniture to a Texas detention center for migrant children.`,
+        "source": "https://www.npr.org/2019/06/26/736308620/wayfair-employees-protest-sale-of-furniture-to-migrant-detention-center",
+        "sourceDescription": "Wayfair Employees Protest Sale Of Furniture To Migrant Detention Center"
+    },
   ];
 
   exports.CustomsAndBorderPatrolConflictedCompanies = CustomsAndBorderPatrolConflictedCompanies;
